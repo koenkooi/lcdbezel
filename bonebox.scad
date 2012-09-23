@@ -13,10 +13,10 @@ edge_thickness = 1.8;
 bottom_thickness = 1;
 border_size = edge_thickness + 6;
 
-base_height = 10;
+base_height = 12;
 
 // Number of facets in curves, 32 is a good tradeoff between looks and processing speed
-$fn=16;
+$fn=64;
 
 // helper sizes, disable for final rendering
 //color([0,0,1]) helper(inside_width,inside_length,edge_thickness);
@@ -32,7 +32,7 @@ module helper(inside_width,inside_length,edge_thickness) {
 
 module box(iw, il, bt, base_height, bs, et ) {
 	// mini usb height
-	sh=4;
+	sh=4.5;
 	pcbt= 2;
 	extra_height = 0;
 
