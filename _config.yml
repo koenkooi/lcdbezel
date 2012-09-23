@@ -7,21 +7,21 @@
 ## Uses distinct namespace. Jekyll settings should go at the root level.
 githubiverse:
     ## Metadata
-    title: "Mechanical Movement #27"
-    author: Gary Hodgson
-    license: GPL3
-    tags: [mechanical movement, fun]
+    title: "Casings and coasters for beagleboard.org devices"
+    author: Koen Kooi
+    license: CC-BY-SA
+    tags: [beagleboard]
 
     ## Github project parameters.
     github:
         base: https://github.com/
-        user: garyhodgson
-        repository: githubiverse-tst
+        user: koenkooi
+        repository: beaglebox
         branch: master
 
     ## The names of directories where any images, source and stl files associated with the project can be found.
     img_dir: img
-    stl_dir: stl
+    stl_dir: . 
     src_dir: src
 
     ## The headline image
