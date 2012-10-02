@@ -16,7 +16,7 @@ border_size = edge_thickness + 6;
 base_height = 12;
 
 // Number of facets in curves, 32 is a good tradeoff between looks and processing speed
-$fn=64;
+$fn=20;
 
 // helper sizes, disable for final rendering
 //color([0,0,1]) helper(inside_width,inside_length,edge_thickness);
