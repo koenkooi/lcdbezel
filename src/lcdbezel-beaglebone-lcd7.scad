@@ -5,11 +5,15 @@ lcd_length = 103;
 lcd_height = 6;
 
 edge_width = 10;
-overlap = 2;
+
+left_overlap = 2;
+right_overlap = 4;
+top_overlap = 4;
+bottom_overlap = 10;
 
 module lcd(w, l, h) {
 	cube([w,l,h]);
-	translate(v=[overlap, overlap, h/2]) cube([w - overlap*2,l -overlap*2,h]);
+	translate(v=[left_overlap, bottom_overlap, h/2]) cube([w - left_overlap - right_overlap,l - top_overlap - bottom_overlap,h]);
 }
 
 module bezel() {
