@@ -7,16 +7,16 @@
 ## Uses distinct namespace. Jekyll settings should go at the root level.
 githubiverse:
     ## Metadata
-    title: "Casings and coasters for beagleboard.org devices"
+    title: "Designs for LCD bezels for my embedded linux boards"
     author: Koen Kooi
     license: CC-BY-SA
-    tags: [beagleboard]
+    tags: [beagleboard, beaglebone, lcd]
 
     ## Github project parameters.
     github:
         base: https://github.com/
         user: koenkooi
-        repository: beaglebox
+        repository: lcdbezel
         branch: master
 
     ## The names of directories where any images, source and stl files associated with the project can be found.
