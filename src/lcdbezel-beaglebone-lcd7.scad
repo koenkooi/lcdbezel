@@ -6,8 +6,8 @@ lcd_height = 6;
 
 edge_width = 10;
 
-left_overlap = 2;
-right_overlap = 4;
+left_overlap = 3;
+right_overlap = 7;
 top_overlap = 4;
 bottom_overlap = 10;
 
